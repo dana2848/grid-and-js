@@ -1,11 +1,17 @@
 html {
-background-color: #e5e5e5;
+background-color: black;
+font-family:sans-serif;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
 .image-grid {
   display: grid;
-  grid-template-rows: auto auto;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 200px 200px;
+  grid-template: auto auto / repeat
   grid-row-gap: 100px;
   gcg-column-gap: 5px;
 }
@@ -13,4 +19,10 @@ background-color: #e5e5e5;
 .image-grip div img {
   max-width: 200%;
   max-height: auto;
+  border:3px solid #fff;
+}
+
+.headline {
+  text-align:center;
+  font-size: 40px;
 }
