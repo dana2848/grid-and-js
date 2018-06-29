@@ -1,0 +1,16 @@
+html {
+background-color: #e5e5e5;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 200px 200px 200px;
+  grid-row-gap: 100px;
+  gcg-column-gap: 5px;
+}
+
+.image-grip div img {
+  max-width: 200%;
+  max-height: auto;
+}
